@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Library Books</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/cityLibrary.css">
+  
+</head>
+<body>
+  <div id="body" class="container-fluid px-4">
+
+    <ul class="nav nav-tabs pt-2">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="index.html">City Library Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="virtualtour.html">Virtual Tour</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="books.html">Books</a>
+      </li>
+      
+  
+      <!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li> -->
+    </ul>
+
+    <div class="row my-3">
+      <div class="col-6 offset-1"><h2 class="page_title">Books in our Collection</h2></div>
+      <div class="col-4 offset-1"> <a href="addBook.html" class="btn btn-outline-primary float-end">Add Book</a></div>
+    </div>
+
+    <div class="row">
+      <div class="col-10 offset-1">
+      <table id="bookz" class="table table-striped">
+        
+          <tr>
+            <th scope="col">Book Title</th>
+            <th scope="col">ISBN</th>
+           <th scope="col">Overdue Fee</th>
+            <th scope="col">Publisher</th>
+            <th scope="col">Date Published</th>
+          </tr>
+        
+        <tbody id="bookData">
+        </tbody>
+      </table>
+    </div>
+    </div>
+
+  </div>
+
+  <script src ="./resources/showBook.js"></script>
+</body>
+</html>

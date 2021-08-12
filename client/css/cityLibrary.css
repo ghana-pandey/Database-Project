@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(245, 245, 245);
+  } 
+  
+  p{
+  
+    font-size: 105%;
+  }
+  
+  .nav {
+    background-color: rgb(56, 184, 243);
+  }
+  
+  li {
+    font-size: 110%;
+  
+  }
+  
+  a.nav-link{
+    color:rgb(247, 247, 247)
+  }
+  a:hover{
+    color:red;
+  }
+  
+  /* Highlight Table Border on Hover */
+  #bookz tr:hover td
+  {
+      border-top:2px solid green;
+      border-bottom:2px solid green;
+  }
+  
+  .page_title {
+  color:rgb(56, 184, 243) ;
+  }
+  
+  /* Message Box */
+  .msg {
+    display: "";
+    /* position: absolute; */
+    left: 100px;
+    top: 50px;
+    border: solid black 1px;
+    padding: 10px;
+    background-color:white; 
+    text-align: justify;
+    font-size: 12px;
+    /* width: 135px; */
+  
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+      border-radius: 8px;
+  
+  }
+  
+  .hideMe {
+    display: none;
+  }
+  
+  
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
